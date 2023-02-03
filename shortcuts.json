@@ -1,0 +1,35 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "alt+t",
+        "command": "workbench.action.toggleMaximizedPanel",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+w",
+        "command": "workbench.action.switchWindow",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+d",
+        "command": "editor.action.goToDeclaration",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+r",
+        "command": "editor.action.rename",
+        "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "f12",
+        "command": "-editor.action.revealDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-workbench.action.switchWindow"
+    }
+]
+
+
+
