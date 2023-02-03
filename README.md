@@ -1,2 +1,2 @@
 # VS-code-shortcuts
-Start it for later use!. 😊
+Star it for later use! 😊
